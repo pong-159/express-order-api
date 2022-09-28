@@ -20,6 +20,7 @@ app.use((err, req, res, next) => {
   return;
 });
 
+//shoud use dotenv for storing  constant instead
 app.listen(PORT, () => {
   console.log(`app customers listening at ${PORT}`);
 });

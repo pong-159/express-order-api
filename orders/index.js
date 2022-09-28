@@ -28,6 +28,7 @@ app.listen(PORT, () => {
   console.log(`app products listening at ${PORT}`);
 });
 
+//shoud use dotenv for storing  constant instead
 function connectDB() {
   // should use dotenv for constant instead
   mongoose.connect("mongodb://localhost:27017/orders", {

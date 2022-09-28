@@ -21,11 +21,11 @@ app.use((err, req, res, next) => {
 
   return;
 });
-
+//shoud use dotenv for storing  constant instead
 app.listen(9999, () => {
   console.log("app products listening at 9999");
 });
-
+//shoud use dotenv for storing  constant instead
 function connectDB() {
   mongoose.connect("mongodb://localhost:27017/products", {
     useNewUrlParser: true,
